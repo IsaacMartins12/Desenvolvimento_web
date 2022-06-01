@@ -1,1 +1,3 @@
-# Repositório voltado para Páginas web desenvolvidas em HTML E CSS
+# Páginas estáticas
+- Repositório voltado para Páginas web desenvolvidas em HTML E CSS
+-

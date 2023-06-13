@@ -37,6 +37,8 @@ app.get("/" , (req, res)=>{
 const DB_USER = process.env.DB_USER
 const DB_PASSWORD = process.env.DB_PASSWORD
 
+// Nessa parte voce insere o link do banco que criou no ATLAS para executar a conexao
+
 mongoose.connect(
     `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.fx6ekbw.mongodb.net/?retryWrites=true&w=majority`
 ).then(()=>{
